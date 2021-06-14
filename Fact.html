@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script language="JavaScript">
+	function facto(){
+	var n,i,fact;
+	n=document.getElementById("num").value;
+	fact=1;
+	for(i=n;i>=1;i--){
+	fact=fact*i;
+}
+	document.write(fact)
+}
+</script>
+<style>
+button{
+padding: 5px;
+border-radius: 25%;
+background-color: wheat;
+color: red;
+}
+</style>
+</head>
+<body style="text-align:center;color:brown">
+<h1 style="color:blue; text-align:center">This is A Factorial program </h1>
+Enter Any number : <input type="text" id="num"><br><br>
+<button onclick="facto()">Click</button>
+</body>
+</html>
